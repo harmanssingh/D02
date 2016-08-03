@@ -59,14 +59,12 @@ def four_times(x):
     x()
     x()
 
-def column():
+def two_by_two():
     plusminus()
     four_times(hyphen)
     plusminus()
     four_times(hyphen)
     plusminus()
-
-column()
 
 
 # (2) Write a function that draws a similar grid with four rows and four columns.
@@ -108,7 +106,7 @@ def four_times(x):
     x()
     x()
 
-def column():
+def four_by_four():
     plusminus()
     four_times(hyphen)
     plusminus()
@@ -118,8 +116,6 @@ def column():
     plusminus()
     four_times(hyphen)
     plusminus()
-
-column()
 
 
 
@@ -139,7 +135,8 @@ def main():
     four_by_four()
     """
     print("Hello World!")
-
+    two_by_two()
+    four_by_four()
 
 
 

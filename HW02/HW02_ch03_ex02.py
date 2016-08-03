@@ -35,41 +35,32 @@ def do_twice(f):
 
 # Here's an example that uses do_twice to call a function named print_spam twice.
 #Problem 1
- def print_spam():
+def print_spam():
      print('spam')
 
- do_twice(print_spam)
 
  #Problem 2
- def do_twice(f,x):
+def do_twice(f,x):
      f(x)
      f(x)
 
 def print_spam(x):
     print(x)
 
-do_twice(print_spam,"Hello")
-
 #Problem 3
 def print_twice(x):
     print(x)
     print(x)
-
-print_twice("spam")
 
 #Problem 4
 def print_twice(x):
    print(x)
    print(x)
 
-do_twice(print_twice,"Spam")
-
 #Problem 5
 def do_four(f,x):
     do_twice(f,x)
     do_twice(f,x)
-
-do_four(print_spam,"spam")
 
 # Write your functions above:
 ################################################################################
@@ -79,7 +70,7 @@ def main():
     do_four(print_twice, [some_value])
     """
     print("Hello World!")
-
+    do_four(print_twice,"spam")
 
 
 if __name__ == "__main__":

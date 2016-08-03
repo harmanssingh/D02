@@ -29,7 +29,7 @@ def main():
     """Call your functions within this function."""
     print("Hello World!")
     right_justify("Python")
-    right_justify("YOUR_NAME")
+    right_justify("HARMAN SHAH SINGH")
 
 if __name__ == "__main__":
     main()
